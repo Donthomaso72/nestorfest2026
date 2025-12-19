@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NESTOR - Kids in a Ghost Town Experience</title>
     
-    <!-- Scripts för att köra React + TSX direkt i webbläsaren -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,7 +50,6 @@
 </head>
 <body>
     <div id="root"></div>
-    <!-- Vi använder data-type="module" och data-presets="react,typescript" för att Babel ska veta vad den ska göra -->
-    <script type="text/babel" data-type="module" data-presets="react,typescript" src="/index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>
